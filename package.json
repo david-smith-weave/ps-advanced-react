@@ -1,0 +1,9 @@
+{
+  "name": "ps-advanced-react",
+  "version": "1.0.0",
+  "description": "Advanced React",
+  "main": "lib/server.js",
+  "repository": "https://github.com/david-smith-weave/ps-advanced-react",
+  "author": "David Smith",
+  "license": "MIT"
+}
