@@ -11,10 +11,21 @@
     "webpack": "webpack -wd"
   },
   "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      "@babel/plugin-proposal-function-sent",
+      "@babel/plugin-proposal-export-namespace-from",
+      "@babel/plugin-proposal-numeric-separator",
+      "@babel/plugin-proposal-throw-expressions"
+    ],
     "presets": [
-      "react",
-      "env",
-      "stage-2"
+      "@babel/preset-react",
+      "@babel/preset-env"
     ]
   },
   "devDependencies": {
@@ -25,11 +36,16 @@
   },
   "dependencies": {
     "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
+    "@babel/plugin-proposal-function-sent": "^7.8.3",
+    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
+    "@babel/plugin-proposal-throw-expressions": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-stage-2": "^7.8.3",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
