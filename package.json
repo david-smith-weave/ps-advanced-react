@@ -7,7 +7,14 @@
   "author": "David Smith",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon lib/server.js"
+    "dev": "nodemon --exec babel-node lib/server.js"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
