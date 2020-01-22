@@ -34,7 +34,7 @@ module.exports = {
     "no-useless-return": "error",
     "no-var": "error",
     "one-var": ["error", "never"],
-    "prefer-arrow-callback": "error",
+    // "prefer-arrow-callback": "error",
     strict: "error",
     "symbol-description": "error",
     yoda: ["error", "never", { exceptRange: true }]
