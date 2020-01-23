@@ -1,0 +1,9 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "State API",
+  "main": "lib/index.js",
+  "repository": "https://github.com/david-smith-weave/ps-advanced-react-state-api",
+  "author": "David Smith",
+  "license": "MIT"
+}
